@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <open-data class="userinfo-avatar" type="userAvatarUrl" default-avatar="../../image/img_me_avatar.png">
+    </open-data>
+    <open-data class="userinfo-nickname" type="userNickName"></open-data>
+    <!-- <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text> -->
+  </view>
+
+  <view class="info_list">
+    <block wx:for="{{userListInfo}}">
+      <view class="weui_cell" bindtap="handleClickAction">
+        <view class="weui_cell_hd">
+          <image src="{{item.icon}}"></image>
+        </view>
+        <view class="weui_cell_bd">
+          <view class="weui_cell_bd_p"> {{item.text}} </view>
+        </view>
+        <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+        <view class="with_arrow"></view>
+      </view>
+    </block>
+  </view>
+</view>

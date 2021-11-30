@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <image src="{{locationImg}}" class="img"></image>
+  </view>
+
+  <view class="text">
+    <text>公司：{{company}}</text>
+    <text>邮编：{{mail}}</text>
+    <text bindtap="makePhoneCall">电话：<text class="text-link">{{phone}}</text></text>
+    <text>邮箱：{{email}}</text>
+    <text bindtap="jumpGuanwang">官网：<text class="text-link">{{guanwang}}</text></text>
+    <text>地址：{{location}}</text>
+  </view>
+
+</view>

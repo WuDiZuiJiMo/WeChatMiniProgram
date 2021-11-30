@@ -1,0 +1,45 @@
+/**index.wxss**/
+.container {
+  padding: 10px 0px;
+  background-color: #F2f2f2;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.info-list {
+  padding: 30rpx;
+}
+
+.line {
+  height: 0;
+  border-bottom: 4rpx solid #09bb07;
+}
+
+.row {
+  margin: 20rpx 30rpx;
+  word-break: break-all;
+  box-sizing: border-box;
+}
+
+.row .col1 {
+  width: 300rpx;
+  display: inline-block;
+}

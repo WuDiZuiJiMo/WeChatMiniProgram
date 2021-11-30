@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <swiper class="swiper_box" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}"
+      interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for-items="{{bannerImages}}">
+        <swiper-item bindtap="bindViewTap">
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="text">
+    <view class="line_flag"></view>
+    <text>公司产品</text>
+  </view>
+  <view class="text">
+    <text bindtap="jumpToMovies" class="linktext">电影热映</text>
+    <text bindtap="jumpToSystemPage" class="linktext">系统信息</text>
+  </view>
+
+  <view class="text">
+    <view class="line_flag"></view>
+    <text>开源资讯</text>
+  </view>
+  <view class="text">
+    <view class="line_flag"></view>
+    <text>微信活动</text>
+  </view>
+  <view class="text">
+    <view class="line_flag"></view>
+    <text>关于我们</text>
+  </view>
+
+</view>

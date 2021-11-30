@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "小程序官网",
+  "usingComponents": {
+    "i-tag": "../../components/tag/index"
+  }
+}

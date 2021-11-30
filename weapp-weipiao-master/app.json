@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/topics/index",
+    "pages/introduction/index",
+    "pages/h5Page/index",
+    "pages/systeminfoPage/index",
+    "pages/my/index",
+    "pages/logs/logs",
+    "pages/movie/index",
+    "pages/cinema/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序官网",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F2f2f2",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/home.png",
+        "selectedIconPath": "image/home_HL.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/topics/index",
+        "iconPath": "image/icon_normal.png",
+        "selectedIconPath": "image/icon_pressed.png",
+        "text": "专题栏目"
+      },
+      {
+        "pagePath": "pages/introduction/index",
+        "iconPath": "image/contact.png",
+        "selectedIconPath": "image/contact_HL.png",
+        "text": "联系我们"
+      }
+    ]
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

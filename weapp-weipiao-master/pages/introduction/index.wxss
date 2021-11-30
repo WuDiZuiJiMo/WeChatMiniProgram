@@ -1,0 +1,24 @@
+.container {
+  background-color: #F2f2f2;
+}
+
+.img {
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  color: #656565;
+  padding: 40rpx;
+  word-break: break-all;
+}
+
+.text-link {
+  color: #61a1ff;
+}
+
+.text text {
+  margin-bottom: 10rpx;
+}
